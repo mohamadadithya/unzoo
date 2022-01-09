@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Unzoo</title>
+  <link rel="stylesheet" href="/src/css/main.css" type="text/css" media="all" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container flex between center">
+      <a href="#" class="header__logo">UnZoo</a>
+      <form class="header__form" method="get" accept-charset="utf-8">
+        <input class="header__form--input" type="number" id="range" min="1" max="10" placeholder="Range" value="1" />
+      </form>
+    </div>
+  </header>
+  <div class="container">
+    <button type="button" class="random-btn"><i class="far fa-sync"></i></button>
+  </div>
+  <section class="animals">
+    <div class="container"></div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>
+        &copy; 2021 <a class="f-bold" href="https://m-adithya.my.id">Mohamad Adithya</a>
+      </p>
+    </div>
+  </footer>
+  <div class="preloader">
+    <div class="lds-dual-ring"></div>
+  </div>
+  <script src="/src/js/app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
